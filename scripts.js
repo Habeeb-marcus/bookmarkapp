@@ -9,7 +9,7 @@ const button = document.getElementById('button');
    videoElement.onloadedmetadata = () => {
      videoElement.play();
    }
-  } catch (error) {
+  } catch (error) { 
     // catch error heres
     console.log('whoops, error here:', error);
   }
