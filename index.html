@@ -3,14 +3,17 @@
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Template</title>
+   <title>picture-in-picture</title>
    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=airbnb.com">
-   <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
    <link rel="stylesheet" href="style.css">
  </head>
  <body>
-  <i class="fab fa-airbnb"></i>
-   <h1>Mr macaroni</h1>
+  <!-- video -->
+   <video id="video" controls height="360" width="640" hidden></video>
+   <!-- Button -->
+   <div class="button-container">
+     <button id="button">START</button>
+   </div>
    <!-- Scripts -->
    <script src="scripts.js"></script>
  </body>
